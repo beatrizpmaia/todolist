@@ -9,10 +9,53 @@ body {
 }
 
 .container {
-    background: wheat;
+    background: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgb(0,0,0,0.2);
     width: 300px;
 
+}
+
+h1 i {
+    nav-right: 8px;
+    color: #333;
+
+}
+
+form {
+    display: flex;
+    gap: 10px; 
+}
+
+input { 
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: gray;
+    
 }
