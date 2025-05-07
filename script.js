@@ -5,7 +5,7 @@ const list = document.getElementById("todo-list");
 form.addEventListener("submit" , function(e) {
     e.preventDefault();
 
-    const taskText = input.Value.trimm()
+    const taskText = input.value.trim()
     
     if (taskText === "") return
 
